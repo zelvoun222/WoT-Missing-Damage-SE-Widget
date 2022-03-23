@@ -1,4 +1,8 @@
 {
+  "appID": {
+    "label": "WG API ID for requests:"
+  },
+  
   "playerID": {
     "label": "Player ID (only number):",
     "value": 583595852
