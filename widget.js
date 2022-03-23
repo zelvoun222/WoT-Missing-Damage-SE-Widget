@@ -7,7 +7,7 @@ function getData(fieldData){
   	tankID = fieldData.tankID;
   	targetDamage = fieldData.targetDamage;
 
-  	$.getJSON("https://api.worldoftanks.eu/wot/tanks/stats/?application_id=783c2ed88421d37e4723430a5fd37cfc&account_id=" + playerID + "&extra=random&fields=random.battles%2C+random.damage_dealt&tank_id=" + tankID, function (data){
+  	$.getJSON("https://api.worldoftanks.eu/wot/tanks/stats/?application_id="+ appID +"&account_id=" + playerID + "&extra=random&fields=random.battles%2C+random.damage_dealt&tank_id=" + tankID, function (data){
     	let values = data["data"][playerID][0]["random"];
       	let newTarget = parseInt(targetDamage) * values["battles"] - values["damage_dealt"];
       	let oldTarget = $("#missing-dmg").text()
