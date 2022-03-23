@@ -1,0 +1,35 @@
+{
+  "playerID": {
+    "label": "Player ID (only number):",
+    "value": 583595852
+  },
+  
+  "tankID": {
+  	"label": "Tank ID (only number):",
+    "value": 2929
+  },
+  
+  "targetDamage": {
+  	"label": "Desired DPG:",
+    "type": "number",
+    "value": 5000
+  },
+  
+  "textOnScreen": {
+  	"label": "Text shown on stream:",
+    "type": "text",
+    "value": "Sample Text"
+  },
+  
+  "textSize": {
+  	"label": "Text size (px):",
+    "type": "number",
+    "value": 25
+  },
+  
+  "textColor": {
+  	"label": "Text color:",
+    "type": "colorpicker",
+    "value": "rgb(255, 255, 255)"
+  }
+}
