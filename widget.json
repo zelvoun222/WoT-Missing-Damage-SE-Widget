@@ -5,18 +5,18 @@
   
   "playerID": {
     "label": "Player ID (only number):",
-    "value": 583595852
+    "value": 
   },
   
   "tankID": {
   	"label": "Tank ID (only number):",
-    "value": 2929
+    "value": 
   },
   
   "targetDamage": {
   	"label": "Desired DPG:",
     "type": "number",
-    "value": 5000
+    "value": 
   },
   
   "textOnScreen": {
