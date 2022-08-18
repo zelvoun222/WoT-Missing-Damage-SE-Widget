@@ -3,7 +3,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
 });
 
 function getData(fieldData){
-	  playerID = fieldData.playerID;
+	playerID = fieldData.playerID;
   	tankID = fieldData.tankID;
   	targetDamage = fieldData.targetDamage;
   	appID = fieldData.appID;
